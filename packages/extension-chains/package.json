@@ -1,0 +1,17 @@
+{
+  "name": "@polkadot/extension-chains",
+  "description": "Definitions for all known chains as exposed by the extension.",
+  "version": "0.38.1",
+  "type": "module",
+  "author": "Nusantarachain <nusantarchain@gmail.com>",
+  "license": "Apache-2",
+  "main": "index.js",
+  "sideEffects": false,
+  "dependencies": {
+    "@babel/runtime": "^7.14.0",
+    "@polkadot/networks": "^6.5.1"
+  },
+  "peerDependencies": {
+    "@polkadot/api": "*"
+  }
+}
