@@ -71,7 +71,7 @@ function Header ({ children, className = '', showAdd, showBackArrow, showSetting
               />
             )
           }
-          <span className='logoText'>{text || 'Web3Port'}</span>
+          <span className='logoText'>{text || 'NuchainApp'}</span>
         </div>
         <div className='popupMenus'>
           {showAdd && (

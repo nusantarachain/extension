@@ -32,7 +32,7 @@ redirectIfPhishing().then((gotRedirected) => {
 
 function inject () {
   injectExtension(enable, {
-    name: 'web3port',
+    name: 'NuchainApp',
     version: process.env.PKG_VERSION as string
   });
 }
