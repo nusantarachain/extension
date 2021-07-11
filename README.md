@@ -8,6 +8,6 @@ The extension will inject your public key (account) to the on-chain app and on-c
 
 ## Installation
 
-* On Chrome, install via [Chrome web store](#link-to-chrome-web-store).
+* On Chrome, install via [Chrome web store](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne).
 * On Firefox, install via [Firefox add-ons](#link-to-firefox-add-ons).
 
