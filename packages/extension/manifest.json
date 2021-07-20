@@ -5,6 +5,7 @@
     "name": "Nuchain App",
     "short_name": "Nuchain",
     "manifest_version": 2,
+    "version": "0.1.0",
     "permissions": [
         "storage",
         "tabs"
