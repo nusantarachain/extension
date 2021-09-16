@@ -1,7 +1,7 @@
 {
   "name": "@polkadot/extension-ui",
   "description": "Signer extension for Nuchain network",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "author": "Nusantarachain <nusantarchain@gmail.com>",
   "license": "Apache-2",

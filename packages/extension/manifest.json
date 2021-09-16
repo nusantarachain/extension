@@ -4,19 +4,16 @@
     "homepage_url": "https://nuchain.network",
     "name": "Nuchain App",
     "short_name": "Nuchain",
-    "manifest_version": 2,
-    "version": "0.1.0",
+    "manifest_version": 3,
+    "version": "0.1.2",
     "permissions": [
         "storage",
         "tabs"
     ],
     "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": true
+        "service_worker": "background.js"
     },
-    "browser_action": {
+    "action": {
         "default_title": "Nuchain",
         "default_popup": "index.html"
     },
@@ -40,7 +37,13 @@
         "128": "images/icon-128.png"
     },
     "web_accessible_resources": [
-        "page.js"
+        {
+            "resources": ["page.js"],
+            "matches": [],
+            "extension_ids": []
+        }
     ],
-    "content_security_policy": "script-src 'self' blob: 'unsafe-eval' 'wasm-eval'; object-src 'self'"
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }
 }

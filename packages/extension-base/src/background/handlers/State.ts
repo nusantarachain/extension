@@ -66,7 +66,7 @@ const WINDOW_OPTS: chrome.windows.CreateData = {
   left: 150,
   top: 150,
   type: 'popup',
-  url: chrome.extension.getURL('notification.html'),
+  url: chrome.runtime.getURL('notification.html'),
   width: 560
 };
 

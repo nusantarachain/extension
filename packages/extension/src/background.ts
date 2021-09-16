@@ -12,7 +12,7 @@ import { assert } from '@polkadot/util';
 import { cryptoWaitReady } from '@polkadot/util-crypto';
 
 // setup the notification (same a FF default background, white text)
-chrome.browserAction.setBadgeBackgroundColor({ color: '#d90000' });
+chrome.action.setBadgeBackgroundColor({ color: '#d90000' });
 
 // listen to all messages and handle appropriately
 chrome.runtime.onConnect.addListener((port): void => {

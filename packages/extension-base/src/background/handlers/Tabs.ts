@@ -143,7 +143,7 @@ export default class Tabs {
 
   private redirectPhishingLanding (phishingWebsite: string): void {
     const encodedWebsite = encodeURIComponent(phishingWebsite);
-    const url = `${chrome.extension.getURL('index.html')}#${PHISHING_PAGE_REDIRECT}/${encodedWebsite}`;
+    const url = `${chrome.runtime.getURL('index.html')}#${PHISHING_PAGE_REDIRECT}/${encodedWebsite}`;
 
     chrome.tabs.query({ url: phishingWebsite }, (tabs) => {
       tabs
